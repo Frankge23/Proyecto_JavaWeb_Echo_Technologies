@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 sept 2023, 15:34:47
+    Author     : OA
+*/
+
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff5733; /* Color de acento */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffaf00; /* Cambia de color al pasar el mouse */
+}
+
+/* Barra de navegación */
+
+.barra {
+    background: #111; /* Fondo oscuro */
+    padding: 10px 0;
+}
+
+.contenedor-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-empresa {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menú móvil */
+
+.contenedor-menu-movil {
+    display: none;
+}
+
+.menu-movil label {
+    display: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.menu-movil img {
+    width: 30px;
+}
+
+.menu-movil ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-movil li {
+    margin-bottom: 10px;
+}
+
+/* Títulos */
+
+.alinear-texto {
+    text-align: center;
+    color: #ff5733; /* Color de acento */
+}
+
+/* Anuncios */
+
+.anuncio {
+    background-color: #111; /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.anuncio:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.contenedor-img img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.precio {
+    font-weight: bold;
+    color: #ff5733; /* Color de acento */
+}
+
+/* Footer */
+
+footer {
+    background: #111; /* Fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Animación suave */
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.contenedor-anuncios .anuncio {
+    animation: fade-in 0.5s ease; /* Animación de entrada suave */
+}

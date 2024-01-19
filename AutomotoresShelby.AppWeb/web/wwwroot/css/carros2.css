@@ -1,0 +1,128 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 4 sept 2023, 16:09:09
+    Author     : OA
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* background-color: #1e3a4c;*/
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../img/fondo2.jpg);
+    background-repeat: round;
+    background-size: cover;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.banner {
+    background-image: url(../img/bugatti.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+    .banner h2 {
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    .banner .button {
+        background-color: #fff;
+        color: #212121;
+        border: none;
+        padding: 1em 2em;
+        font-size: 1.5em;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .banner .button:hover {
+            background-color: #212121;
+            color: #fff;
+        }
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+    .featured .car {
+        width: 30%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1em;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .featured .car:hover {
+            box-shadow: 0px 0px 5px #ccc;
+            transform: translateY(-5px);
+        }
+
+    .featured img {
+        max-width: 100%;
+    }
+
+    .featured h3 {
+        margin-top: 0.5em;
+        margin-bottom: 0.25em;
+    }
+
+    .featured p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    h3{
+        color:white;
+    }
+
+    p {
+        color: white;
+    }
+
+.form-label{
+    color:white;
+}
